@@ -1,7 +1,7 @@
 #include <sys/stat.h>
 #include <stdio.h>
 
-int main(int argc, char** args) {
+int main(int argc __unused, char** args) {
     struct stat st;
     char* filename = args[1];
     
